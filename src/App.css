@@ -32,7 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 300px;
+}
+
+.flex1 input {
+  margin: 10px
 }
